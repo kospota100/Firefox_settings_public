@@ -122,3 +122,6 @@ user_pref("privacy.donottrackheader.enabled", true);
 
 user_pref("browser.uiCustomization.state", "{\"placements\":{\"widget-overflow-fixed-list\":[],\"nav-bar\":[\"back-button\",\"forward-button\",\"zoom-controls\",\"sidebar-button\",\"stop-reload-button\",\"urlbar-container\",\"save-to-pocket-button\",\"downloads-button\",\"library-button\",\"fxa-toolbar-menu-button\"],\"toolbar-menubar\":[\"menubar-items\"],\"TabsToolbar\":[\"customizableui-special-spring7\",\"customizableui-special-spring8\",\"alltabs-button\",\"tabbrowser-tabs\",\"new-tab-button\"],\"PersonalToolbar\":[\"customizableui-special-spring5\",\"customizableui-special-spring6\",\"preferences-button\",\"history-panelmenu\",\"bookmarks-menu-button\",\"add-ons-button\",\"personal-bookmarks\",\"customizableui-special-spring2\",\"sync-button\"]},\"seen\":[\"developer-button\"],\"dirtyAreaCache\":[\"nav-bar\",\"PersonalToolbar\",\"toolbar-menubar\",\"TabsToolbar\"],\"currentVersion\":17,\"newElementCount\":8}");
 // 自訂 Toolbar
+
+user_pref("signon.rememberSignons", false)
+// 停止詢問是否儲存密碼
